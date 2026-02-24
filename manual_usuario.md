@@ -18,7 +18,7 @@ Este documento es la referencia definitiva para el uso experto de la plataforma 
 5. [Organización Superior: Grupos y Etiquetas](#5-organización-superior-grupos-y-etiquetas)
 6. [Field Leaderboard: Priorización de Tareas](#6-field-leaderboard-priorización-de-tareas)
 
-![Vista de la Tabla de Contenidos](imagen/placeholder-indice.png)
+![Vista de la Tabla de Contenidos](imagen/tabla_contenido_principal.png)
 *Visualización rápida de los bloques temáticos.*
 
 ### Bloque C: Analítica de Vegetación y Clima
