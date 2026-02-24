@@ -1,11 +1,11 @@
 # manual_usuario.md
-# Super Manual de Usuario: EOSDA Crop Monitoring 🛰️🌾🚀
+# Super Manual de Usuario: EOSDA Crop Monitoring
 
 Este documento es la referencia definitiva para el uso experto de la plataforma **EOSDA Crop Monitoring**. Dividido en secciones modulares, cubre desde los fundamentos físicos de la teledetección hasta la exportación de datos para maquinaria de precisión.
 
 ---
 
-## 📋 Tabla de Contenidos Extendida
+## Tabla de Contenidos Extendida
 
 ### Bloque A: Fundamentos e Interfaz
 1. [Introducción a la Teledetección Agrícola](#1-introducción-a-la-teledetección-agrícola)
@@ -17,6 +17,9 @@ Este documento es la referencia definitiva para el uso experto de la plataforma 
 4. [Añadir Campos: Métodos y Especificaciones de Archivo](#4-añadir-campos-métodos-y-especificaciones-de-archivo)
 5. [Organización Superior: Grupos y Etiquetas](#5-organización-superior-grupos-y-etiquetas)
 6. [Field Leaderboard: Priorización de Tareas](#6-field-leaderboard-priorización-de-tareas)
+
+![Vista de la Tabla de Contenidos](imagen/placeholder-indice.png)
+*Visualización rápida de los bloques temáticos.*
 
 ### Bloque C: Analítica de Vegetación y Clima
 7. [Diccionario Maestro de Índices (NDVI, NDRE, MSAVI, etc.)](#7-diccionario-maestro-de-índices)
@@ -75,12 +78,18 @@ Para un análisis preciso, el polígono debe excluir caminos y edificaciones.
   - **Atributos de Archivo**: Los archivos `.shp` deben incluir los archivos secundarios `.dbf`, `.shx` y `.prj`.
   - **Encoding**: UTF-8 para evitar errores en nombres con acentos o caracteres especiales.
 
+![Proceso de Importación de Campos](imagen/placeholder-importacion.png)
+*Captura recomendada: Menú de importación con archivos .shp o .kml.*
+
 ---
 
 ## 6. Field Leaderboard: Priorización de Tareas
 Esta herramienta es vital para empresas que manejan más de 50 campos.
 - **Lógica**: Ordena tus parcelas basándose en la **variación de NDVI** entre las dos últimas capturas.
 - **Acción**: Si un campo sube al primer lugar con una caída de -0.15, es tu máxima prioridad para el equipo de scouting.
+
+![Ranking de Campos en el Leaderboard](imagen/placeholder-leaderboard.png)
+*Captura recomendada: Tabla del Leaderboard mostrando variaciones de NDVI.*
 
 ---
 
@@ -93,12 +102,18 @@ Esta herramienta es vital para empresas que manejan más de 50 campos.
 | **MSAVI** | Red + NIR (Aj.) | Uso obligatorio en siembra y emergencia temprana. |
 | **VMI** | Multispectral | Índice propietario para detección de anomalías sutiles. |
 
+![Comparativa de Índices](imagen/placeholder-indices-galeria.png)
+*Captura recomendada: El mismo campo visualizado con diferentes índices (NDVI vs NDRE).*
+
 ---
 
 ## 11. Mastering Seasonality: Gestión de Campañas
 La plataforma permite separar los datos por "Temporadas". 
 - **Configuración**: Define el inicio (pre-siembra) y el fin (pos-cosecha).
 - **Importancia**: Esto limpia los gráficos de NDVI de los residuos del cultivo anterior, permitiendo un análisis puro de la campaña actual.
+
+![Configuración de Temporadas](imagen/placeholder-seasonality.png)
+*Captura recomendada: Selector de fechas y cultivos en el panel de Seasonality.*
 
 ---
 
@@ -118,6 +133,9 @@ Este módulo es el puente a la maquinaria.
 - **Configuración**: Puedes elegir entre **Zonificación por Vegetación** (actual) o **Productividad** (histórica).
 - **Dosis**: Entra los valores de aplicación (ej. 150 kg/ha en zona alta, 100 kg/ha en zona media).
 - **Exportación**: Genera el archivo para John Deere, Trimble o Raven.
+
+![Zonificación VRA](imagen/placeholder-vra-map.png)
+*Captura recomendada: Mapa de zonas de aplicación con diferentes dosis por color.*
 
 ---
 
@@ -142,6 +160,9 @@ Este módulo es el puente a la maquinaria.
 - **Problema**: "El NDVI es muy bajo pero el cultivo se ve bien".
   - **Solución**: Verifica si es un cultivo de hoja pequeña o si hay mucha sombra por la hora de captura.
 
+![Ejemplo de Errores por Nubosidad](imagen/placeholder-troubleshooting.png)
+*Captura recomendada: Imagen satelital con interferencia de nubes.*
+
 ---
 
-© 2026 Guía Maestra elaborada por Antigravity. Prohibida su reproducción sin autorización de Irving Morales.
+© 2026 Guía Maestra elaborada por Irving Morales. 
