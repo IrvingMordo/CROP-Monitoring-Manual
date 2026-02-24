@@ -60,7 +60,7 @@ Es fundamental cerrar la sesión al finalizar la jornada, especialmente en compu
 2. **Acción**: Haz clic en el nombre de tu usuario y selecciona la opción **"Cerrar Sesión"** o **"Log Out"**.
 3. **Confirmación**: El sistema te redirigirá a la pantalla de inicio de sesión, confirmando que tu sesión ha expirado de forma segura.
 
-![Pantalla de Login](ruta/a/imagen_login.png)
+![Pantalla de Login](imagen/login-auth.png)
 *Descripción: Formulario de acceso y opciones de recuperación de cuenta.*
 
 ---
